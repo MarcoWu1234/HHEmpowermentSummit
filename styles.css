@@ -895,7 +895,7 @@ nav {
 }
 
 .summary-intro {
-    max-width: 110%;
+    max-width: 100%;
     margin: 0 auto 1rem;
     text-align:left;
 }
@@ -1575,66 +1575,3 @@ footer {
     color: #666;
   }
   
-@media (max-width: 768px) {
-  .schedule-tabs {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .timeline-header,
-  .timeline-item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .timeline-column {
-    width: 100% !important;
-    padding: 0.5rem 1rem;
-  }
-
-  .event-details-panel .details-content {
-    padding: 1rem;
-  }
-
-  .session-wrapper {
-    flex-direction: column !important;
-    align-items: flex-start;
-  }
-
-  .session-time-column,
-  .session-info-column {
-    width: 100% !important;
-    flex: unset !important;
-  }
-
-  .session-speaker,
-  .session-guest,
-  .session-guest2 {
-    position: static !important;
-    margin-top: 5px;
-    font-size: 14px;
-  }
-
-  .session-name {
-    font-size: 15px !important;
-    word-break: break-word;
-  }
-
-  .venue-block {
-    padding: 10px 0;
-  }
-
-  .text-reminder {
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .footer-logo img {
-    margin: 5px;
-  }
-}
